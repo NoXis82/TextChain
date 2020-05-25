@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/action_2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintRight_toRightOf="parent"
+
+    app:layout_constraintTop_toBottomOf="@+id/name_t"
+    tools:showIn="@layout/activity_main">
+
+    <include
+        android:id="@+id/divBtn"
+        layout="@layout/buttons_type_2" />
+
+    <include
+        android:id="@+id/multiBtn"
+        layout="@layout/buttons_type_2" />
+
+    <include
+        android:id="@+id/minusBtn"
+        layout="@layout/buttons_type_2" />
+
+    <include
+        android:id="@+id/plusBtn"
+        layout="@layout/buttons_type_2" />
+
+    <include
+        android:id="@+id/equalBtn"
+        layout="@layout/buttons_type_2" />
+</LinearLayout>

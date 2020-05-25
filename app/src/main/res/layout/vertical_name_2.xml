@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/name_t_v_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/name_t"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/name_m"
+        app:layout_constraintBottom_toTopOf="@+id/name_u_v_2"
+        app:layout_constraintRight_toLeftOf="@+id/action_2"
+        app:layout_constraintLeft_toRightOf="@+id/action_1"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <TextView
+        android:id="@+id/name_u_v_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/name_u"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/name_t_v_2"
+        app:layout_constraintRight_toLeftOf="@+id/action_2"
+        app:layout_constraintLeft_toRightOf="@+id/action_1"
+        app:layout_constraintBottom_toTopOf="@id/name_m_v_2" />
+
+    <TextView
+        android:id="@+id/name_m_v_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/name_m"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/name_u_v_2"
+        app:layout_constraintRight_toLeftOf="@+id/action_2"
+        app:layout_constraintLeft_toRightOf="@+id/action_1"
+        app:layout_constraintBottom_toTopOf="@+id/name_a_v_2" />
+
+    <TextView
+        android:id="@+id/name_a_v_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/name_a"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/name_m_v_2"
+        app:layout_constraintRight_toLeftOf="@+id/action_2"
+        app:layout_constraintLeft_toRightOf="@+id/action_1"
+        app:layout_constraintBottom_toTopOf="@+id/name_n_v_2" />
+
+    <TextView
+        android:id="@+id/name_n_v_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/name_n"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/name_a_v_2"
+        app:layout_constraintRight_toLeftOf="@+id/action_2"
+        app:layout_constraintLeft_toRightOf="@+id/action_1"
+        app:layout_constraintBottom_toTopOf="@+id/name_o_v_2" />
+
+    <TextView
+        android:id="@+id/name_o_v_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/name_o"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/name_n_v_2"
+        app:layout_constraintRight_toLeftOf="@+id/action_2"
+        app:layout_constraintLeft_toRightOf="@+id/action_1"
+        app:layout_constraintBottom_toTopOf="@+id/name_v_v_2" />
+
+    <TextView
+        android:id="@+id/name_v_v_2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/name_v"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/name_o_v_2"
+        app:layout_constraintRight_toLeftOf="@+id/action_2"
+        app:layout_constraintLeft_toRightOf="@+id/action_1"
+        app:layout_constraintBottom_toTopOf="@+id/name_u_bottom" />
+</merge>

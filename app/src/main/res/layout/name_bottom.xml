@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/name_t_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_t"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintRight_toLeftOf="@+id/name_u_bottom"
+        app:layout_constraintTop_toBottomOf="@id/numbers_4" />
+
+    <TextView
+        android:id="@+id/name_u_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_u"
+        android:textSize="20sp"
+
+        app:layout_constraintLeft_toRightOf="@id/name_t_bottom"
+        app:layout_constraintRight_toLeftOf="@+id/name_m_bottom"
+        app:layout_constraintTop_toBottomOf="@id/numbers_4" />
+
+    <TextView
+        android:id="@+id/name_m_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_m"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/name_u_bottom"
+        app:layout_constraintRight_toLeftOf="@+id/name_a_bottom"
+        app:layout_constraintTop_toBottomOf="@id/numbers_4" />
+
+    <TextView
+        android:id="@+id/name_a_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_a"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/name_m_bottom"
+        app:layout_constraintRight_toLeftOf="@+id/name_n_bottom"
+        app:layout_constraintTop_toBottomOf="@id/numbers_4" />
+
+    <TextView
+        android:id="@+id/name_n_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_n"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/name_a_bottom"
+        app:layout_constraintRight_toLeftOf="@+id/name_o_bottom"
+        app:layout_constraintTop_toBottomOf="@id/numbers_4" />
+
+    <TextView
+        android:id="@+id/name_o_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_o"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/name_n_bottom"
+        app:layout_constraintRight_toLeftOf="@+id/name_v_bottom"
+        app:layout_constraintTop_toBottomOf="@id/numbers_4" />
+
+    <TextView
+        android:id="@+id/name_v_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_v"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/name_o_bottom"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/numbers_4" />
+</merge>

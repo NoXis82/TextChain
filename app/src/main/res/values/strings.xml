@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TextChain</string>
+    <string name="name_t">T</string>
+    <string name="name_u">U</string>
+    <string name="name_m">M</string>
+    <string name="name_a">A</string>
+    <string name="name_n">N</string>
+    <string name="name_o">O</string>
+    <string name="name_v">V</string>
+    <string name="value">0</string>
+    <string name="clearBtn">c</string>
+    <string name="symbolBtn">+/-</string>
+    <string name="percentBtn">%</string>
+    <string name="divBtn">/</string>
+    <string name="multiBtn">x</string>
+    <string name="minusBtn">-</string>
+    <string name="plusBtn">+</string>
+    <string name="equalBtn">=</string>
+    <string name="numberBtn_0">0</string>
+    <string name="numberBtn_1">1</string>
+    <string name="numberBtn_2">2</string>
+    <string name="numberBtn_3">3</string>
+    <string name="numberBtn_4">4</string>
+    <string name="numberBtn_5">5</string>
+    <string name="numberBtn_6">6</string>
+    <string name="numberBtn_7">7</string>
+    <string name="numberBtn_8">8</string>
+    <string name="numberBtn_9">9</string>
+    <string name="pointBtn">,</string>
+</resources>

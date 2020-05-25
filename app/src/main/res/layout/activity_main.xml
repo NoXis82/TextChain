@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorView"
+        android:gravity="end|center_vertical"
+        android:hint="@string/value"
+        android:maxLength="10"
+        android:textColor="@color/numberColor"
+        android:textColorHint="@color/numberColor"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:typeface="serif"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include layout="@layout/horizontal_name_1" />
+
+    <include layout="@layout/vertical_name_1" />
+
+    <include layout="@layout/panel_action_2" />
+
+    <include layout="@layout/vertical_name_2" />
+
+    <LinearLayout
+        android:id="@+id/action_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/numbers_1"
+        app:layout_constraintLeft_toRightOf="@+id/name_m_v"
+        app:layout_constraintRight_toLeftOf="@+id/name_m_v_2"
+        app:layout_constraintTop_toBottomOf="@+id/name_t">
+
+        <include layout="@layout/panel_action_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/numbers_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/numbers_2"
+        app:layout_constraintLeft_toRightOf="@+id/name_m_v"
+        app:layout_constraintRight_toLeftOf="@+id/name_m_v_2"
+        app:layout_constraintTop_toBottomOf="@+id/action_1">
+
+        <include
+            android:id="@+id/numberBtn_7"
+            layout="@layout/button_number" />
+
+        <include
+            android:id="@+id/numberBtn_8"
+            layout="@layout/button_number" />
+
+        <include
+            android:id="@+id/numberBtn_9"
+            layout="@layout/button_number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/numbers_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/action_2"
+        app:layout_constraintBottom_toTopOf="@+id/numbers_3"
+        app:layout_constraintRight_toLeftOf="@+id/name_m_v_2"
+        app:layout_constraintLeft_toRightOf="@+id/name_m_v"
+        app:layout_constraintTop_toBottomOf="@+id/numbers_1">
+
+        <include
+            android:id="@+id/numberBtn_4"
+            layout="@layout/button_number" />
+
+        <include
+            android:id="@+id/numberBtn_5"
+            layout="@layout/button_number" />
+
+        <include
+            android:id="@+id/numberBtn_6"
+            layout="@layout/button_number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/numbers_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/numbers_4"
+        app:layout_constraintLeft_toRightOf="@+id/name_m_v"
+        app:layout_constraintRight_toLeftOf="@+id/name_m_v_2"
+        app:layout_constraintTop_toBottomOf="@+id/numbers_2">
+
+        <include
+            android:id="@+id/numberBtn_1"
+            layout="@layout/button_number" />
+
+        <include
+            android:id="@+id/numberBtn_2"
+            layout="@layout/button_number" />
+
+        <include
+            android:id="@+id/numberBtn_3"
+            layout="@layout/button_number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/numbers_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/name_m_v"
+        app:layout_constraintRight_toLeftOf="@+id/name_m_v_2"
+        app:layout_constraintBottom_toTopOf="@+id/name_u_bottom"
+        app:layout_constraintTop_toBottomOf="@+id/numbers_3">
+
+        <include
+            android:id="@+id/numberBtn_0"
+            layout="@layout/button_0" />
+
+        <include
+            android:id="@+id/pointBtn"
+            layout="@layout/button_number" />
+    </LinearLayout>
+
+    <include layout="@layout/name_bottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>
